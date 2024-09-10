@@ -1,0 +1,54 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+   
+    color: #894724; /* Texto oscuro para buen contraste */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D42929; /* Rojo intenso*/
+    color: #eaca4c;
+    padding: 14px;
+    text-align: center;
+    border-bottom: 5px solid #d4af37; /* Dorado para un toque decorativo */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Georgia', serif; /* Fuente con estilo tradicional */
+    text-shadow: 2px 2px 4px rgba(231, 8, 8, 0.3); /* Sombra para dar un efecto de profundidad */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 12px; /* Espaciado mayor para mejor visualización */
+}
+
+nav a {
+    color: #fff 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 12px solid transparent; /* Línea de subrayado transparente por defecto */
+    transition: border-color 0.3s ease; /* Transición suave para efectos hover */
+}
+
+nav a:hover {
+    border-bottom: 5px solid ; /* Línea dorada en hover para un efecto visual atractivo */
+    text-decoration: none;
+}
+
+main {
+    padding: 5px
+}
