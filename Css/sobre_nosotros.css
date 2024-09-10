@@ -1,0 +1,52 @@
+/* Estilos básicos para el diseño */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('/Img/sobrenosotros/code fu panda.png');
+    background-size: cover;
+    
+}
+header {
+    background: linear-gradient(to right, #894724, #C0855B, #D42929); /* Degradado lineal */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    }
+
+main  {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+section {
+    margin-bottom: 20px;
+}
+#history {
+    background-color: rgba(240, 248, 255, 0.8); /* Color de fondo con 80% de opacidad (ajusta los valores según sea necesario) */
+    text-align: center;       /* Centra el texto */
+    font-size: 1.5em;         /* Tamaño de fuente más grande */
+    padding: 20px;           /* Espaciado interno */
+    border-radius: 8px;      /* Esquinas redondeadas */
+    margin: 20px auto;       /* Margen automático */
+    max-width: 80%;          /* Limita el ancho máximo del bloque */
+}
+#about {
+    background-color: rgba(240, 248, 255, 0.8); /* Color de fondo con 80% de opacidad (ajusta los valores según sea necesario) */
+    text-align: center;       /* Centra el texto */
+    font-size: 1.5em;         /* Tamaño de fuente más grande */
+    padding: 20px;           /* Espaciado interno */
+    border-radius: 8px;      /* Esquinas redondeadas */
+    margin: 20px auto;       /* Margen automático */
+    max-width: 80%;          /* Limita el ancho máximo del bloque */
+}
+#panda {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    
+}
