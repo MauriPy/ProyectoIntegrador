@@ -1,0 +1,11 @@
+img {
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    color: #4100f5;
+}
