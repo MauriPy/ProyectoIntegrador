@@ -26,12 +26,12 @@ form {
   background-image: url('/Img/Contacto/form_WP.jpg');
   background-size: cover;
   background-position: center;
-  background-color: #D42929;
   border-radius: 10px;
   padding: 20px;
   width: 450px;
   height: 450px;
   margin: 10px auto;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
   input, textarea {
@@ -51,7 +51,7 @@ form {
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: bold;
-    color: #000000;
+    color: #eee7e7;
   }
   
   .infos[type="text"], input[type="email"], input[type="text"] {

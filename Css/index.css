@@ -107,7 +107,14 @@ main img:hover {
     }
 }
 
-.footer {
+main {
+    margin-top: 100px; /* Ajusta esto según la altura de tu navbar */
+}
+
+#navbar {
     width: 100% !important;
-    height: 420px !important;
+}
+
+#footer {
+    width: 100% !important;
 }
