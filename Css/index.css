@@ -1,11 +1,108 @@
-img {
-    max-width: 80%;
-    height: auto;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5;
+    color: #894724;
+    margin: 0;
+    padding: 0;
 }
 
-#h1 {
-    background-color: blueviolet;
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los encabezados */
+h1 {
+    color: #D42929;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #C0855B;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    ;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.right {
+    float: right;
+    margin-left: 20px;
+}
+
+.left {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Ajuste para centrar y reducir la primera imagen */
+main img:first-of-type {
+    display: block;
+    margin: 0 auto;
+    width: 70%; /* Reducir tamaño al 70% del contenedor */
+}
+
+/* Estilos para los párrafos */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Ajustes de diseño para contenedores vacíos */
+.holder {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+/* Efectos adicionales */
+main img {
+    transition: transform 0.3s ease-in-out;
+}
+
+main img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .right, .left {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    /* Ajuste responsivo para la primera imagen */
+    main img:first-of-type {
+        height: 250px; /* Altura ajustada para pantallas más pequeñas */
+    }
 }
