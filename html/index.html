@@ -4,26 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Kode Fu Pandas</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/Css/index.css">
+    <style>
+      /* Estilos para demarcar las columnas */
+      .column-border {
+          border: 2px dashed #ccc; /* Línea discontinua para demarcar */
+          min-height: 100vh; /* Para que la columna tenga al menos la altura de la pantalla */
+      }
+  </style>
 </head>
 <body>
-  <nav id="navbar"></nav>
-  <main>
-    <h1 id="h1">KodeFu Pandas - El blog más connotado de Generatión Chile Cohorte 15!</h1>
-    <h2>5 razones de por qué debes postular a un bootcamp</h2>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Columna izquierda demarcada (para publicidad futura) -->
+      <div class="col-md-2 column-border">
+        <!-- Este espacio queda vacío pero demarcado -->
+      </div>
+      
+      <!-- Columna central (contenido principal) -->
+      <div class="col-md-8">
+        <main>
+          <h1 id="h1">KodeFu Pandas - El blog más connotado de Generatión Chile Cohorte 15!</h1>
+          
+          
+          <!-- Fila para el video y el texto -->
+          <div class="row">
+            <!-- Columna para el video -->
+            <div class="col-md-6 mt-5">
+              <video src="../img/videoplayback.mp4" class="img-fluid mx-auto d-block" controls>
+                Your browser does not support the video tag.
+              </video>
+            </div>
 
-    <img src="../img/1.jpg" alt="Programmer working at desk">    
-    <p>¿Estás pensando en dar un giro a tu carrera o aprender nuevas habilidades en tecnología? Los bootcamps pueden ser la puerta de entrada a ese cambio que tanto buscas. En este artículo, descubrirás cinco poderosas razones para inscribirte en uno: desde la alta demanda de profesionales en áreas tech, hasta la posibilidad de aprender de manera rápida y práctica con el apoyo de mentores. Además, verás cómo estos programas ofrecen flexibilidad y un excelente retorno de inversión, transformando tu perfil en solo unos meses. ¡Es el momento de apostar por tu futuro!</p>
+            <!-- Columna para el bloque de texto -->
+            <div class="col-md-6 video-text-block text-justify">
+              <h2>5 razones para postular a un bootcamp</h2>
+              <p>¿Estás pensando en dar un giro a tu carrera o aprender nuevas habilidades en tecnología? Los bootcamps pueden ser la puerta de entrada a ese cambio que tanto buscas. En este artículo, descubrirás cinco poderosas razones para inscribirte en uno: desde la alta demanda de profesionales en áreas tech, hasta aprender de manera rápida y práctica. Verás cómo ofrecen flexibilidad y retorno de inversión, transformando tu perfil en solo meses. ¡Es momento de apostar por tu futuro!</p>
+            </div>
+          </div>
 
-    <h2>El arte marcial de trabajar en equipo</h2>
-      <img src="../img/images.jpg" class="right"> 
-      <p>En el desarrollo de software, el trabajo en equipo es tan importante como en la película Kung Fu Panda, donde Po aprende que el verdadero poder surge de la colaboración. Al igual que los Furious Five, cada miembro del equipo de desarrollo aporta habilidades únicas: desde la destreza en frontend hasta la sabiduría en backend. La clave está en reconocer que, como en Kung Fu, el éxito en programación no depende de un solo héroe, sino de un equipo que trabaja en sincronía, compartiendo conocimientos, apoyándose mutuamente y resolviendo desafíos juntos para alcanzar la grandeza en cada proyecto. </p>
-      <div class="holder"></div>
-      <h2>Los Furious Five y sus Superpoderes Ocultos: Habilidades Blandas que Todo Equipo Necesita</h2>
-      <img src="../img/Furious-five_l.jpg" class="left">
-      <p>Los Furious Five de Kung Fu Panda no solo destacan por sus habilidades físicas, sino también por sus cualidades blandas o transversales, fundamentales en cualquier equipo. Tigresa simboliza el liderazgo y la disciplina, capaz de guiar con firmeza y determinación. Mono representa la creatividad y la adaptabilidad, siempre listo para resolver problemas de manera ingeniosa. Víbora encarna la empatía y la comunicación efectiva, conectando con los demás con delicadeza. Grulla es la paciencia y la organización, manteniendo la calma en momentos críticos. Mantis, con su rapidez y enfoque, refleja la toma de decisiones bajo presión. Juntos, muestran cómo las habilidades blandas son tan esenciales como las técnicas en cualquier equipo exitoso.</p>
-      <div class="holder"></div>
-    </main>
+          <h2 class="text-center"><a href="/html/sobre_nosotros.html"> Nuestra Leyenda...</a></h2>
+          <img src="../img/Furious-five_l.jpg">
+            <div class="col text-justify mt-3">
+            <p>Los Furious Five y sus Superpoderes Ocultos: Habilidades Blandas que Todo Equipo Necesita: En la bulliciosa ciudad de Santiago, cinco jóvenes vivían en la marginación, enfrentando las dificultades de la vida en la calle. Un día, un venerado mentor, el sabio Sensei Mauri, les ofreció una salida de su dura realidad. “Aprenderán el arte de la programación”, dijo con una sonrisa sabia, “y con ella transformarán sus vidas y protegerán el mundo”.</p>
+            <p>Los jóvenes, inicialmente escépticos, aceptaron el reto. Bajo la tutela de Sensei Mauri, descubrieron la magia del código y cómo podía resolver problemas y combatir el caos. Con el tiempo, se convirtieron en el equipo conocido como Kode Fu Pandas. Juntos, Kode Fu Pandas enfrentaban desafíos digitales y luchaban contra los virus y hackers que amenazaban con desestabilizar Santiago.</p>
+            <p>Cada línea de código era una herramienta de protección y cada problema resuelto era una victoria para la ciudad. Con el tiempo, la vida de los jóvenes cambió radicalmente. No solo encontraron una familia en Sensei Mauri, sino que también descubrieron un propósito mayor. </p>
+            <p>Así, con cada proyecto y desafío, Kode Fu Pandas continuaron su misión, demostrando que el verdadero poder reside en el conocimiento, la cooperación y el arte de transformar el mundo a través del código...</p>
+            </div>
+          </main>
+      </div>
+
+
+            <!-- Columna derecha vacía (para artículos de noticias futuros) -->
+            <div class="col-md-2 column-border"></div>
+          </div>
+        </div>
+        <footer id="footer"></footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </body>
 <footer id="footer"></footer>
 </html>
