@@ -4,7 +4,7 @@ body {
 }
 
 footer {
-    background-color: rgb(128, 19, 41); 
+    
     color: rgb(0, 0, 0); 
     padding: 20px;
     display: flex;
@@ -36,4 +36,27 @@ h5 {
     margin: 10px 0 0;
     text-align: center;
     width: 100%;
+}
+#Facevuc{
+    width: 40px;
+    height: 40px;
+}
+#wasa{
+    width: 50px;
+    height: 50px;
+
+}
+#inta{
+    width: 50px;
+    height: 50px;
+
+}
+#columnarss{
+background-color: burlywood;
+}
+#fila2{
+    background-color: white;
+}
+#fila3{
+    background-color: orange
 }
