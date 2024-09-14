@@ -1,14 +1,23 @@
 /* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #F5F5F5;
-    color: #894724;
+    background-color: #C0855B;
     margin: 0;
     padding: 0;
 }
 
+header {
+    position: sticky;
+    z-index: 1000;
+}
+
+.video-row {
+    margin-top: 120px; /* Asegura que el video no se superponga al navbar */
+    z-index: 1; /* Evita que el video tenga prioridad sobre el navbar */
+}
+
 main {
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     background-color: #FFFFFF;
@@ -16,12 +25,16 @@ main {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+#h1{
+    margin-bottom: 30px;
+}
+
 /* Estilos para los encabezados */
 h1 {
     color: #D42929;
     font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -107,8 +120,12 @@ main img:hover {
     }
 }
 
-main {
-    margin-top: 100px; /* Ajusta esto según la altura de tu navbar */
+#cprincipal{
+    background-color: #BF6734;
+}
+
+#main{
+    background-color: #C0855B;
 }
 
 #navbar {
@@ -118,3 +135,5 @@ main {
 #footer {
     width: 100% !important;
 }
+
+

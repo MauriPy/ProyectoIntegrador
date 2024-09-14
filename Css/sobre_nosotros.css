@@ -6,14 +6,12 @@ body {
     background-color: #f4f4f4;
     background-image: url('/Img/sobrenosotros/code fu panda.png');
     background-size: cover;
-    
+    background-position: center;   
 }
+
 header {
-    background: linear-gradient(to right, #894724, #C0855B, #D42929); /* Degradado lineal */
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    }
+    z-index: 1000;
+}
 
 main  {
     font-family: Arial, sans-serif;
@@ -42,17 +40,18 @@ section {
     margin: 20px auto;       /* Margen automático */
     max-width: 80%;          /* Limita el ancho máximo del bloque */
 }
+
 #panda {
     width: 250px;
     height: 250px;
     margin: 0 auto;
     display: block;
     border-radius: 50%;
+}
+
+h2.text-center.mb-4 {
+    background-color: rgba(7, 7, 7, 0.4);
+    color: #F2F1F0; 
+    font-size: 38px; 
     
 }
-h2.text-center.mb-4 {
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #000; /* Color del texto, puedes cambiarlo según tus preferencias */
-    font-size: 38px; /* Tamaño de la fuente */
-    /* Otros estilos si los necesitas */
-  }

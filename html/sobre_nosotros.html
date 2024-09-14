@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nosotros</title>
     <link rel="stylesheet" href="/Css/sobre_nosotros.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <nav id="navbar"></nav>
+    <header>
+        <nav id="navbar"></nav>
+    </header>
     <div class="container-fluid">
         <div class="row">
+            <!-- Columna publicidad -->
             <div class="col-1"></div>
             <div class="col-10">
                 <div class="container mb-5">
@@ -76,24 +79,28 @@
                     </div>
                 </div>
                 <!-- Nueva Sección para el Video y la Imagen -->
-<div class="container mb-5">
-    <h2 class="text-center mb-4">UN SABIO MENSAJE DE MAURI SENSEI PARA USTEDES:</h2>
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/QnSb3FhCywY" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-md-6 d-flex align-items-center">
-            <img src="/Img/Contacto/kunfupa.gif" alt="Descripción de la imagen" class="img-fluid" style="max-width: 100%;">
-        </div>
-    </div>
-</div>
+                    <div class="container mb-5">
+                        <h2 class="text-center mb-4">UN SABIO MENSAJE DE MAURI SENSEI PARA USTEDES:</h2>
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/QnSb3FhCywY" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-center mt-3">
+                                <img src="/Img/Contacto/kunfupa.gif" id="panda" alt="Descripción de la imagen" class="img-fluid" style="max-width: 100%;">
+                            </div>
+                        </div>
                     </div>
-                </div>
             </div>
-            <div class="col-1"></div>
+        </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-3+4K5r7N88g5E5/J2L8V6+4o+6v9kW0r/m0k9Q7yE4oG86D9Z4eQGNDz6cQ9"crossorigin="anonymous"></script>
+    <!-- Columna publicidad -->
+    <div class="col-1"></div>
+    <!-- Footer Dario -->
+    <footer id="footer"></footer>
+</div>
+<script src="/Js/cargas_html.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,17 +1,19 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #BF6734;
 }
 
 footer {
-    
-    color: rgb(0, 0, 0); 
+    width: 100%;
+    color: #000000; 
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     position: relative;
+    background-color: #BF6734;
 }
 
 footer p {
@@ -38,25 +40,30 @@ h5 {
     width: 100%;
 }
 #Facevuc{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 #wasa{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 
 }
 #inta{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 
 }
-#columnarss{
-background-color: burlywood;
+
+#wasa:hover, #inta:hover {
+    transform: translateY(-5px);
+    width: 55px;
+    height: 55px;
 }
-#fila2{
-    background-color: white;
+
+#Facevuc:hover {
+    transform: translateY(-5px);
+    width: 45px;
+    height: 45px;
 }
-#fila3{
-    background-color: orange
-}
+
+

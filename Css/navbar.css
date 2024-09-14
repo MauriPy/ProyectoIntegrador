@@ -1,17 +1,30 @@
-<style>
+
 .navbar {
-  background-color: #ffffff;
+  background-color: #BF6734;
   box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+
+header {
+  position: sticky;
+  top: 0px; 
 }
 
 .navbar-brand {
   display: flex;
   align-items: center;
   font-weight: bold;
+  width: 30%;
 }
 
 .navbar-brand img {
   margin-right: 10px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
 }
 
 .navbar-nav .nav-link {
@@ -19,10 +32,12 @@
   font-weight: 400;
   padding: 0.5rem 1rem;
   transition: color 0.3s ease;
+  color: #0D0D0D;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #007bff;
+  color: #fdfdfd;
+  
 }
 
 @media (min-width: 992px) {
@@ -31,4 +46,12 @@
     padding-left: 1.5rem;
   }
 }
-</style>
+
+.container-fluid {
+  width: 100%;
+}
+
+#navbarNav {
+  background-color: #BF6734;
+  width: 100%;
+}
