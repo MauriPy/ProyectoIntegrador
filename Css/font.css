@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'KodeFuPanda';
+    src: url('/Font/KunfuPanda/kodefupanda.ttf') format('truetype');
+}
+
+html {
+    font-size: 14px
+}
+
+body {
+    font-family: 'KodeFuPanda', sans-serif;
+}
